@@ -75,6 +75,7 @@ body {
     top: 30%;
     left: 50%;
     transform: translateX(-50%);
+    animation: fadeIn 2s ease-in-out;
 
 
     text-transform: uppercase;
@@ -135,4 +136,16 @@ body {
         width: 100%;
         margin-top: 10%;
     }
+
+    
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
