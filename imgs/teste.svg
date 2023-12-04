@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" viewBox="0 0 300 100">
+  <text id="titulo" x="20" y="60" font-family="Arial" font-size="40" fill="none" stroke="black" stroke-dasharray="300" stroke-dashoffset="300">
+    Lucas Viana Torres
+    <animate attributeName="stroke-dashoffset" from="300" to="0" dur="2s" begin="0s" fill="freeze" />
+  </text>
+</svg>

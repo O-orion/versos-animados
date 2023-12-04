@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@400;500;600&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container-header">
+        <img src="./imgs/praia-caiaques.svg" alt="">
+        <h1 class="let-titulo">Olá, princesinha</h1>          
+    </header>
+
+    <section id="section-dicas" class="section-dicas">
+      
+      <h1>Você é uma mulher incrível</h1>
+      <div class="container-cards">
+        <img src="./imgs/R-removebg-preview.png" class="icone" alt="">
+
+        <article class="card card-esq" >
+          
+          <h2>Princesinha Evellyn</h2>
+          <p>No universo dos teus olhos me perdi,<br>
+            Revelaste um mundo, princesa, em ti.<br>
+            Incrível, linda, faz de tudo um pouco, com esplendor,<br>
+            E a voz dos que não podem, lutar por direitos,<br>
+            És ativista, lutando por causas valiosas,<br>
+            Impossível não te admirar princesinha.</p>
+        </article>
+
+        <article class="card card-dir" >
+          <img src="./imgs/OIP-removebg-preview.png" class="icone" alt="">
+          <h2>A fantástica Evellyn</h2>
+          <p>Em teu ser, princesinha, um tesouro raro,<br>
+            Descobrir-te, na vida, foi o mais precioso amparo.<br>
+            Estou aqui, contigo,<br>
+            Não te deixarei sozinha, promessa verdadeira.</p>
+            <br>
+            <p>Você é simplesmente fantástica</p>
+            <p>Sua presença torna o mundo um lugar melhor</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="container-footer">
+      <svg class="lett-footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640.01 199.3"><title>lett-footer</title>
+      <defs>
+        <!-- Filtros e efeitos -->
+        <filter id="filtro-blur" x="0" y="0">
+          <feTurbulence id="filtro-turbulencia" type="turbulence" baseFrequency="0.05" numOctaves="2" result="turbulences" />
+          <feDisplacementMap  in="SourceGraphic" in2="turbulences" scale="5" />
+        </filter>
+      </defs>
+      <g id="vetores-texto" filter="url(#filtro-blur)" >
+        princesinha
+      </g>
+    </svg>
+
+    <img src="./imgs/praia-footer.svg" alt="praia footer">
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>

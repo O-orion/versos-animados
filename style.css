@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+
+    overflow-x: hidden;
+  }
+  
+  .container-header {
+      width: 100vw;
+      position: relative;
+      background: linear-gradient(to bottom, #05aef6, #ffffff);
+  }
+  
+  .lett-header {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      width: 80%;
+      margin-top: 10%;
+      fill: transparent;
+      animation: lett-preenchimento 0.5s ease-in-out forwards 4s; 
+  }
+  
+  .lett-header path {
+      stroke-width: 2px;
+      stroke: #05aef6;
+      stroke-dasharray: 3000;
+      stroke-dashoffset: 3000;
+      animation: lett-tracado 5s ease-in-out forwards 1s; 
+  }
+  
+  h1, h2 {
+      font-family: 'Pacifico', cursive;
+      color: #05aef6;
+      text-align: center;
+  }
+  
+  h1 {
+      font-size: 3em;
+  }
+  
+  h2 {
+      font-size: 1.5em;
+  }
+  
+  p {
+      font-family: 'Lato', sans-serif;
+      color: #484848;
+      font-size: 1em;
+  }
+  
+  .container-cards {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .card {
+      background-color: white;
+      border-radius: 10px;
+      width: 50%;
+      padding: 20px;
+      margin: 20px;
+  }
+  p {
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .let-titulo {
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+    text-transform: uppercase;
+  }
+  
+  .lett-footer {
+    width: 60%;
+
+    fill: #FFF;
+    opacity: 0.5;
+
+    position: absolute;
+    left: 20%;
+    margin-top: 20%;
+  }
+  
+  .container-footer {
+    position: relative;
+  }
+
+  @keyframes lett-preenchimento {
+      to {
+          fill: #BE253F;
+      }
+  }
+  
+  @keyframes lett-tracado {
+      to {
+          stroke-dashoffset: 0;
+      }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .container-header  {
+        
+    }
+    .lett-header {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .let-titulo {
+        font-size: 32px;
+        top: 25%;
+    }
+
+    .container-cards {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .lett-footer {
+        width: 100%;
+        margin-top: 10%;
+    }
+}
