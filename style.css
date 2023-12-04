@@ -110,7 +110,7 @@ body {
 
   @media only screen and (max-width: 768px) {
     .container-header  {
-        
+        height: 85%;
     }
     .lett-header {
         width: 100%;
